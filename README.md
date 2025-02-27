@@ -25,12 +25,6 @@ A simple React application for user registration with form validation and Tailwi
 - **HTML5**: For structuring the application.
 - **JavaScript**: For application logic.
 
-## Setup and Installation
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/your-username/react-user-registration-app.git
-   cd react-user-registration-app
-   ```
+``
 
 ![alt text](image.png)
