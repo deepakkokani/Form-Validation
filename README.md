@@ -1,8 +1,36 @@
-# React + Vite
+# React User Registration App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application for user registration with form validation and Tailwind CSS for styling.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- User registration form with fields for:
+  - Full Name
+  - Email
+  - Password
+  - Confirm Password
+- Form validation:
+  - Password must be at least 8 characters long.
+  - Password must contain at least one special character.
+  - Password must contain at least one capital letter.
+  - Password and Confirm Password must match.
+- Success toast notification on successful registration.
+- Display a list of registered users.
+
+## Technologies Used
+
+- **React**: A JavaScript library for building user interfaces.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **React Toastify**: A library for displaying toast notifications.
+- **HTML5**: For structuring the application.
+- **JavaScript**: For application logic.
+
+## Setup and Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/react-user-registration-app.git
+   cd react-user-registration-app
+   ```
+
+![alt text](image.png)
